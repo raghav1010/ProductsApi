@@ -5,5 +5,4 @@ class ProductSerializer(ModelSerializer):
 
     class Meta:
         model = Product
-        fields=['name','type','price']
-        
+        fields=['id','name','type','price']

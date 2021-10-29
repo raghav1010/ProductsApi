@@ -16,7 +16,7 @@ class ProductList(ListCreateAPIView):
         serializer.save()
 
     def get_queryset(self):
-        return Product.objects
+        return Product.objects.all()
 
 class ProductDetailView(RetrieveUpdateAPIView):
 
